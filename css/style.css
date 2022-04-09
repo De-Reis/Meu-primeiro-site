@@ -1,0 +1,159 @@
+/*Global------------*/
+
+*,body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header------------*/
+
+.caixa-banner {
+  background-image: url("../IMG/Mapa2.jpg");
+  background-origin: border-box;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-bottom: 10px solid #9C0F48;
+}
+
+.titulo1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #F76E11;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+.subtitulo1 {
+  font-size: x-large;  
+  color: #781D42;
+  font-family: 'Barlow', sans-serif;
+   
+
+}
+
+.titulo-sobre {
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: chocolate;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*Sobre------------*/
+
+.caixa-sobre {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+.lado1 {
+  width: 40%;
+  justify-content: space-between;
+}
+
+.lado1 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 28px
+}
+
+.link-linkedin {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #FF9F45;
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/*Habilidades------------*/
+
+.lado2 {
+  width: 20%;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 28px;
+  background-color: #ec9f73;
+  color: white;
+  padding: 50px;
+   
+  
+}
+
+.lista {
+  list-style: none;
+
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #781D42;
+}
+
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+/*links------------*/
+
+.caixa-links {
+  margin: 120px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0.8rem;
+}
+
+.links {
+  background-color: #ec9f73;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10rem;
+}
+
+.caixa-links p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+.icone {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.rodape {
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  background-color: #9C0F48;
+  border-top: 10px solid #ec9f73;
+  
+}
